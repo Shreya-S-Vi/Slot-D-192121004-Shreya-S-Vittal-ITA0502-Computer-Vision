@@ -4,8 +4,7 @@ import cv2
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 # Load the image
-#image_path = "C:/Users/vitta/Pictures/Screenshots/Screenshot (123).png"
-image_path = "C:/Users/vitta/Desktop/BTS.jpg"
+image_path = "C:/Users/vitta/Desktop/Group.jpg"
 img = cv2.imread(image_path)
 
 # Convert the image to grayscale for face detection
