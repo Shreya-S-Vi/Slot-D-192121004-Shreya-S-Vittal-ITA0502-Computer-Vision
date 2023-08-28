@@ -23,6 +23,6 @@ img = img*mask2[:,:,np.newaxis]
 # display the extracted foreground image
 
 # plt.imshow(img),plt.colorbar(),plt.show()
-cv2.imshow('Foreground Image',img)
+cv2.imshow('Background Image',img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
